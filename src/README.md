@@ -48,3 +48,32 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+# Documentation for the static frontend files
+
+## styles.css
+This file contains the CSS styles for the web application. It defines the layout, colors, typography, and responsive design for the app, including:
+- General layout and box model
+- Header, main, section, and footer styling
+- Activity card appearance
+- Form and button styles (including hover effects)
+- Custom styles for unregister buttons and feedback messages
+- Participants section and list
+
+## app.js
+This file contains the JavaScript logic for the frontend, handling:
+- Fetching activities and participants from the backend
+- Registering and unregistering users for activities
+- Displaying feedback messages (success, error, info)
+- Dynamically updating the DOM based on user actions
+
+## index.html
+This is the main HTML file for the app. It includes:
+- The structure of the web page (header, main, footer)
+- Forms for user registration
+- Sections for displaying activities and participants
+- Links to the CSS and JavaScript files
+
+---
+
+For more details, see the main project README.md.
